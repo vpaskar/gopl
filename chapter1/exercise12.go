@@ -17,9 +17,8 @@ const (
 	blackindex = 3
 )
 
-func exercise15(out io.Writer) {
+func exercise15(out io.Writer, cycles float64) {
 	const (
-		cycles  = 5
 		res     = 0.001
 		size    = 100
 		nframes = 64
