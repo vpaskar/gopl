@@ -1,5 +1,7 @@
 package main
 
+import "os"
+
 func main() {
-	exercise14()
+	exercise16(os.Stdout)
 }
